@@ -1,0 +1,49 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.container-div {
+  background-color: lightgray;
+  width: 700px;
+  padding: 20px;
+}
+
+.new-homework {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.input {
+  width: 100%;
+}
+
+.container-info-task {
+  display: flex;
+}
+
+#todo-list {
+  width: 100%;
+}
+
+#counter-task-info {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}

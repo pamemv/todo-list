@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/92a36300ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Todo List</title>
+  </head>
+  <body>
+    <section class="container-section">
+      <div class="container-div">
+        <div><h3>Todo list</h3></div>
+        <hr />
+        <div class="new-homework">
+          <p>Nueva tarea</p>
+        </div>
+        <div class="container-input">
+          <input id="inputTask" class="input" type="text" />
+          <button onclick="agregarTarea()">Agregar</button>
+        </div>
+        <div class="container-info-task">
+          <div id="counter-task-info">
+            <p id="totalTasks"></p>
+            <p id="completedTasks"></p>
+          </div>
+          <div id="todo-list">
+            <table>
+              <thead>
+                <th><strong>ID</strong></th>
+                <th><strong>Tarea</strong></th>
+              </thead>
+              <tbody id="taskList"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
